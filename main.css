@@ -1,0 +1,86 @@
+.container {
+    width: 70%;
+    margin-left: 30%;
+    padding-left: 3em;
+    padding-bottom: 2em;
+    display: flex;
+ }
+ .log{
+    margin-left: 20%;
+    font-family: fantasy;
+ }
+
+ label{
+    margin-left: 5%;
+    font-family: fantasy;
+    color: blue;
+    font-weight: 1.5px;
+ }
+
+
+ select{
+    height: 3.5em;
+    border-radius: 20px;
+    padding-left: 5em;
+    padding-left: 5em;
+    border: 2px solid blue;
+ }
+
+ select:hover{
+    color: green;
+    border-color: green;
+ }
+
+ option{
+    border-radius: 20px;
+
+ }
+
+ input{
+    border-radius: 20px;
+    border: 2px solid blue;
+    background-color: rgba(255, 255, 255, 0.288);
+    height: 3em;
+    width: 57%;
+    padding-left: 5em;
+    padding-right: 5em;
+    text-align: center;
+}
+
+input:hover{
+    border-color: green;
+}
+
+input[type=file]::file-selector-button{
+
+    border: none;
+    margin-top: 1em;
+    border-radius: 20px;
+    
+}
+
+input[type=file]::file-selector-button:hover{
+    background-color: green;
+}
+
+.btn input{
+    border-radius: 20px;
+    font-family: fantasy;
+    color: white;
+    width: 100%;
+    /* margin-left: 5%; */
+    background-color: black;
+    font-weight: bold;
+    padding : 1em;
+    border-color: aqua;
+}
+
+.btn input:hover{
+    background-color: green;
+}
+input::placeholder{
+    font-family: fantasy;
+}
+input::placeholder:hover{
+    color:green;
+}
